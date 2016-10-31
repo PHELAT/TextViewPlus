@@ -20,6 +20,26 @@ dependencies {
 </dependency>
 ```
 
+## Usage
+1.  Put your font (.ttf or .otf) in the assets directory of your project
+2.  In your layout use the below tag with attribute app:font="" (inside double quotes type your font name)
+```
+<PHELAT.TextView.Plus
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hello World!"
+    android:gravity="center"
+    android:textSize="50sp"
+    android:layout_marginTop="10dp"
+    android:id="@+id/myTextView"
+    app:font="Roboto-Black.ttf"/>
+```
+also you can use TextViewPlus library in your Java class
+```
+Plus myTextView = (Plus) findViewById(R.id.myTextView);
+myTextView.setFont(context, "Roboto-Black.ttf");
+```
+
 ## License
 ```
 Copyright 2016 Nouri Mohammad Mahdi
