@@ -23,7 +23,7 @@ dependencies {
 ## Usage
 1.  Put your font (.ttf or .otf) in the assets directory of your project
 2.  In your layout use the below tag with attribute app:font="" (inside double quotes type your font name)
-```
+```xml
 <PHELAT.TextView.Plus
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -35,7 +35,7 @@ dependencies {
     app:font="Roboto-Black.ttf"/>
 ```
 also you can use TextViewPlus library in your Java class
-```
+```java
 Plus myTextView = (Plus) findViewById(R.id.myTextView);
 myTextView.setFont(context, "Roboto-Black.ttf");
 ```
