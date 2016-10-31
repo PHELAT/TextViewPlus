@@ -24,7 +24,7 @@ dependencies {
 1.  Put your font (.ttf or .otf) in the assets directory of your project
 2.  In your layout use the below tag with attribute app:font="" (inside double quotes type your font name)
 ```xml
-<PHELAT.TextView.Plus
+<phelat.TextView.Plus
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Hello World!"
