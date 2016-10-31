@@ -2,5 +2,6 @@
 <resources>
     <declare-styleable name="TextViewPlus">
         <attr name="font" format="string"/>
+        <attr name="justify" format="boolean"/>
     </declare-styleable>
 </resources>

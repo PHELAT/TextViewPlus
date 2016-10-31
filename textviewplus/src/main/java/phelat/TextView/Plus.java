@@ -1,8 +1,12 @@
-package PHELAT.TextView;
+package phelat.TextView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Canvas;
 import android.graphics.Typeface;
+import android.text.Layout;
+import android.text.StaticLayout;
+import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
@@ -10,6 +14,12 @@ import android.widget.TextView;
 public class Plus extends TextView {
 
     private static final String TAG = "TextViewPlus";
+
+    private int mLineY;
+
+    private int mViewWidth;
+
+    private boolean shouldIJustify = false;
 
     public Plus(Context context) {super(context);}
 
@@ -45,13 +55,14 @@ public class Plus extends TextView {
 
         } catch (Exception e) {
 
-            Log.e(TAG, "Could not get typeface: " + e.getMessage());
+            Log.e(TAG, "Could not set TypeFace : " + e.getMessage());
             return false;
 
         }
 
         setTypeface(typeface);
         return true;
+
     }
 
 }
