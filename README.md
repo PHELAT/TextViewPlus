@@ -4,14 +4,14 @@ Just a simple library for Android that provides setting custom font on TextView 
 
 ## Installation
 ### Gradle
-```
+```groovy
 dependencies {
     ...
     compile 'phelat.textview:textviewplus:1.0'
 }
 ```
 ### Maven
-```
+```xml
 <dependency>
   <groupId>phelat.textview</groupId>
   <artifactId>textviewplus</artifactId>
