@@ -1,4 +1,25 @@
 # TextViewPlus Library
+
+Just a simple library for Android that provides setting custom font on TextView from xml layout or Java class
+
+## Installation
+### Gradle
+```
+dependencies {
+    ...
+    compile 'phelat.textview:textviewplus:1.0'
+}
+```
+### Maven
+```
+<dependency>
+  <groupId>phelat.textview</groupId>
+  <artifactId>textviewplus</artifactId>
+  <version>1.0</version>
+  <type>pom</type>
+</dependency>
+```
+
 ## License
 ```
 Copyright 2016 Nouri Mohammad Mahdi
