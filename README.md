@@ -1,6 +1,7 @@
 # TextViewPlus Library
 
 Just a simple library for Android that provides setting custom font on TextView from xml layout or Java class
+![alt tag](http://8pic.ir/images/nm4ncg9ak7s20im3n21u.png)
 
 ## Installation
 ### Gradle
