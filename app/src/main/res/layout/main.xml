@@ -31,4 +31,32 @@
         android:id="@+id/myTextView"
         android:layout_marginTop="10dp" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <phelat.Button.Plus
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:font="Roboto-Black.ttf"
+            android:text="BOLD"/>
+
+        <phelat.Button.Plus
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:font="Roboto-LightItalic.ttf"
+            android:text="Light Italic"/>
+
+        <phelat.Button.Plus
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Normal"/>
+
+    </LinearLayout>
+
 </LinearLayout>
