@@ -2,14 +2,14 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TextViewPlus-red.svg?style=flat-square)]()
 
 Just a simple library for Android that provides setting custom font on TextView from xml layout or Java class
-![alt tag](http://8pic.ir/images/nm4ncg9ak7s20im3n21u.png)
+![alt tag](https://phelat.com/Git/TextViewPlus/screenshot.png)
 
 ## Installation
 ### Gradle
 ```groovy
 dependencies {
     ...
-    compile 'phelat.textview:textviewplus:1.0'
+    compile 'phelat.textview:textviewplus:1.1.0'
 }
 ```
 ### Maven
@@ -17,30 +17,13 @@ dependencies {
 <dependency>
   <groupId>phelat.textview</groupId>
   <artifactId>textviewplus</artifactId>
-  <version>1.0</version>
+  <version>1.1.0</version>
   <type>pom</type>
 </dependency>
 ```
 
 ## Usage
-1.  Put your font (.ttf or .otf) in the assets directory of your project
-2.  In your layout use the below tag with attribute app:font="" (inside double quotes type your font name)
-```xml
-<phelat.TextView.Plus
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Hello World!"
-    android:gravity="center"
-    android:textSize="50sp"
-    android:layout_marginTop="10dp"
-    android:id="@+id/myTextView"
-    app:font="Roboto-Black.ttf"/>
-```
-also you can use TextViewPlus library in your Java class
-```java
-Plus myTextView = (Plus) findViewById(R.id.myTextView);
-myTextView.setFont(context, "Roboto-Black.ttf");
-```
+see the [WIKI Page](https://github.com/PHELAT/TextViewPlus/wiki)
 
 ## License
 ```
