@@ -1,6 +1,8 @@
 # TextViewPlus Library
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TextViewPlus-red.svg?style=flat-square)]()
 
 Just a simple library for Android that provides setting custom font on TextView from xml layout or Java class
+![alt tag](http://8pic.ir/images/nm4ncg9ak7s20im3n21u.png)
 
 ## Installation
 ### Gradle
@@ -24,7 +26,7 @@ dependencies {
 1.  Put your font (.ttf or .otf) in the assets directory of your project
 2.  In your layout use the below tag with attribute app:font="" (inside double quotes type your font name)
 ```xml
-<PHELAT.TextView.Plus
+<phelat.TextView.Plus
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Hello World!"
