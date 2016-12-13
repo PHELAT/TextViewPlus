@@ -9,7 +9,7 @@ Just a simple library for Android that provides setting custom font on TextView 
 ```groovy
 dependencies {
     ...
-    compile 'phelat.textview:textviewplus:1.1.0'
+    compile 'phelat.textview:textviewplus:1.2.1'
 }
 ```
 ### Maven
@@ -17,7 +17,7 @@ dependencies {
 <dependency>
   <groupId>phelat.textview</groupId>
   <artifactId>textviewplus</artifactId>
-  <version>1.1.0</version>
+  <version>1.2.1</version>
   <type>pom</type>
 </dependency>
 ```
