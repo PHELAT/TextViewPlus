@@ -1,15 +1,16 @@
-package phelat.TextView;
+package phelat.EditText;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.TextView;
+import android.widget.EditText;
 
+import phelat.TextView.R;
 import phelat.Utils.FontHelper;
 
-public class Plus extends TextView {
+public class Plus extends EditText {
 
     private static final String TAG = "TextViewPlus";
 

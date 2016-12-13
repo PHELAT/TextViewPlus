@@ -1,18 +1,18 @@
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'phelat.textview' // CREATE A GROUP ID FOR YOUR LIBRARY
+group = 'phelat.textview'
 
 install {
     repositories.mavenInstaller {
         pom {
             project {
                 packaging 'aar'
-                groupId 'phelat.textview' // CREATE A GROUP ID FOR YOUR LIBRARY
-                artifactId 'textviewplus' // THE NAME OF YOUR MODULE
+                groupId 'phelat.textview'
+                artifactId 'textviewplus'
 
-                name 'TextViewPlus' // YOUR LIBRARY NAME
-                description 'an android library for adding custom fonts on textview' // YOUR LIBRARY DESCRIPTION
-                url 'https://github.com/PHELAT/TextViewPlus' // YOUR SITE
+                name 'TextViewPlus'
+                description 'an android library for adding custom fonts on textview'
+                url 'https://github.com/PHELAT/TextViewPlus'
 
                 licenses {
                     license {
@@ -22,15 +22,15 @@ install {
                 }
                 developers {
                     developer {
-                        id 'm4hdi' //YOUR ID
-                        name 'Mahdi Nouri' //YOUR NAME
-                        email 'm4hdi.pdroid@gmail.com' //YOUR EMAIL
+                        id 'm4hdi'
+                        name 'Mahdi Nouri'
+                        email 'm4hdi.pdroid@gmail.com'
                     }
                 }
                 scm {
-                    connection 'https://github.com/PHELAT/TextViewPlus.git' // YOUR GIT REPO
-                    developerConnection 'https://github.com/PHELAT/TextViewPlus.git' // YOUR GIT REPO
-                    url 'https://github.com/PHELAT/TextViewPlus' // YOUR SITE
+                    connection 'https://github.com/PHELAT/TextViewPlus.git'
+                    developerConnection 'https://github.com/PHELAT/TextViewPlus.git'
+                    url 'https://github.com/PHELAT/TextViewPlus'
 
                 }
             }

@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="10dp">
 
     <phelat.TextView.Plus
         android:layout_width="match_parent"
@@ -58,5 +59,17 @@
             android:text="Normal"/>
 
     </LinearLayout>
+
+    <phelat.EditText.Plus
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font="Roboto-LightItalic.ttf"
+        android:hint="Light Italic" />
+
+    <phelat.EditText.Plus
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:font="Roboto-Black.ttf"
+        android:hint="Light Italic" />
 
 </LinearLayout>

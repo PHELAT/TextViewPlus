@@ -1,6 +1,6 @@
 apply plugin: 'com.jfrog.bintray'
 
-version = '1.1.0' //YOUR LIBRARY VERSION
+version = '1.1.0'
 
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
@@ -32,11 +32,11 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = 'TextViewPlus'
-        name = 'TextViewPlus' //YOUR PACKAGE NAME
-        desc = 'and Android library for setting custom font on textview' // YOUR LIBRARY DESCRIPTION
-        websiteUrl = 'https://github.com/PHELAT/TextViewPlus' // YOUR SITE
-        vcsUrl = 'https://github.com/PHELAT/TextViewPlus.git' // YOUR GIT REPO
-        licenses = ["Apache-2.0"] // A LIST OF YOUR LICENCES
+        name = 'TextViewPlus'
+        desc = 'and Android library for setting custom font on textview'
+        websiteUrl = 'https://github.com/PHELAT/TextViewPlus'
+        vcsUrl = 'https://github.com/PHELAT/TextViewPlus.git'
+        licenses = ["Apache-2.0"]
         publish = true
         publicDownloadNumbers = true
     }
