@@ -35,19 +35,19 @@ public class Plus extends Button {
 
         String customFont = a.getString(R.styleable.TextViewPlus_font);
 
-        setFont(context, customFont);
+        setFont(customFont);
 
         a.recycle();
 
     }
 
-    public boolean setFont(Context context, String asset) {
+    public boolean setFont(String asset) {
 
         Typeface typeface = null;
 
         try {
 
-            typeface = Typeface.createFromAsset(context.getAssets(), asset);
+            typeface = Typeface.createFromAsset(getContext().getAssets(), asset);
 
         } catch (Exception e) {
 

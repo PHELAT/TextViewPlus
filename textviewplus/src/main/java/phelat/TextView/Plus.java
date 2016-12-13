@@ -2,11 +2,7 @@ package phelat.TextView;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.graphics.Canvas;
 import android.graphics.Typeface;
-import android.text.Layout;
-import android.text.StaticLayout;
-import android.text.TextPaint;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
@@ -39,19 +35,19 @@ public class Plus extends TextView {
 
         String customFont = a.getString(R.styleable.TextViewPlus_font);
 
-        setFont(context, customFont);
+        setFont(customFont);
 
         a.recycle();
 
     }
 
-    public boolean setFont(Context context, String asset) {
+    public boolean setFont(String asset) {
 
         Typeface typeface = null;
 
         try {
 
-            typeface = Typeface.createFromAsset(context.getAssets(), asset);
+            typeface = Typeface.createFromAsset(getContext().getAssets(), asset);
 
         } catch (Exception e) {
 
