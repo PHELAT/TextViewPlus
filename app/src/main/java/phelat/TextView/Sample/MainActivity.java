@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.main);
 
         Plus myTextView = (Plus) findViewById(R.id.myTextView);
-        myTextView.setFont(MainActivity.this, "Roboto-LightItalic.ttf");
+        myTextView.setFont("Roboto-LightItalic.ttf");
 
     }
 

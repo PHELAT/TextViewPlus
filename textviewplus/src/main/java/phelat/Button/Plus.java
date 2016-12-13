@@ -8,6 +8,7 @@ import android.util.Log;
 import android.widget.Button;
 
 import phelat.TextView.R;
+import phelat.Utils.FontHelper;
 
 public class Plus extends Button {
 
@@ -35,19 +36,19 @@ public class Plus extends Button {
 
         String customFont = a.getString(R.styleable.TextViewPlus_font);
 
-        setFont(context, customFont);
+        setFont(customFont);
 
         a.recycle();
 
     }
 
-    public boolean setFont(Context context, String asset) {
+    public boolean setFont(String asset) {
 
         Typeface typeface = null;
 
         try {
 
-            typeface = Typeface.createFromAsset(context.getAssets(), asset);
+            typeface = FontHelper.get(getContext(), asset);
 
         } catch (Exception e) {
 
