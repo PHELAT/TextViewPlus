@@ -7,6 +7,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.widget.TextView;
 
+import phelat.Utils.FontHelper;
+
 public class Plus extends TextView {
 
     private static final String TAG = "TextViewPlus";
@@ -47,7 +49,7 @@ public class Plus extends TextView {
 
         try {
 
-            typeface = Typeface.createFromAsset(getContext().getAssets(), asset);
+            typeface = FontHelper.get(getContext(), asset);
 
         } catch (Exception e) {
 
