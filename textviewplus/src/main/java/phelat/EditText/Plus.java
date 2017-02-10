@@ -3,14 +3,14 @@ package phelat.EditText;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
+import android.support.v7.widget.AppCompatEditText;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.EditText;
 
 import phelat.TextView.R;
 import phelat.Utils.FontHelper;
 
-public class Plus extends EditText {
+public class Plus extends AppCompatEditText {
 
     private static final String TAG = "TextViewPlus";
 

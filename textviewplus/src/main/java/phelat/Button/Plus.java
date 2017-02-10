@@ -3,14 +3,14 @@ package phelat.Button;
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
+import android.support.v7.widget.AppCompatButton;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.widget.Button;
 
 import phelat.TextView.R;
 import phelat.Utils.FontHelper;
 
-public class Plus extends Button {
+public class Plus extends AppCompatButton {
 
     private static final String TAG = "TextViewPlus";
 
