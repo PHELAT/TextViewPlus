@@ -2,14 +2,14 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TextViewPlus-red.svg?style=flat-square)]()
 
 Just a simple library for Android that provides setting custom font on TextView from xml layout or Java class
-![alt tag](https://phelat.com/Git/TextViewPlus/screenshot.png)
+![alt tag](https://github.com/PHELAT/TextViewPlus/blob/master/screenshot/screenshot.png)
 
 ## Installation
 ### Gradle
 ```groovy
 dependencies {
     ...
-    compile 'phelat.textview:textviewplus:1.2.1'
+    compile 'phelat.textview:textviewplus:1.2.2'
 }
 ```
 ### Maven
@@ -17,7 +17,7 @@ dependencies {
 <dependency>
   <groupId>phelat.textview</groupId>
   <artifactId>textviewplus</artifactId>
-  <version>1.2.1</version>
+  <version>1.2.2</version>
   <type>pom</type>
 </dependency>
 ```
