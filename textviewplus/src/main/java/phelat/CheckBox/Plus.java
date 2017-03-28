@@ -1,16 +1,16 @@
-package phelat.EditText;
+package phelat.CheckBox;
 
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Typeface;
-import android.support.v7.widget.AppCompatEditText;
+import android.support.v7.widget.AppCompatCheckBox;
 import android.util.AttributeSet;
 import android.util.Log;
 
 import phelat.TextView.R;
 import phelat.Utils.FontHelper;
 
-public class Plus extends AppCompatEditText {
+public class Plus extends AppCompatCheckBox {
 
     private static final String TAG = "TextViewPlus";
 

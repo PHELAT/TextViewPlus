@@ -14,10 +14,6 @@ public class Plus extends AppCompatButton {
 
     private static final String TAG = "TextViewPlus";
 
-    private int mLineY;
-
-    private int mViewWidth;
-
     public Plus(Context context) {super(context);}
 
     public Plus(Context context, AttributeSet attrs) {
