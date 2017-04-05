@@ -8,8 +8,8 @@ import android.util.AttributeSet;
 import android.util.Log;
 
 import phelat.TextView.R;
-import phelat.Utils.FontHelper;
 
+@Deprecated
 public class Plus extends AppCompatEditText {
 
     private static final String TAG = "TextViewPlus";
@@ -44,7 +44,7 @@ public class Plus extends AppCompatEditText {
 
         try {
 
-            typeface = FontHelper.get(getContext(), asset);
+            typeface = phelat.utils.Plus.get(getContext(), asset);
 
         } catch (Exception e) {
 

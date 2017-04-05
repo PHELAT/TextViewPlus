@@ -2,8 +2,11 @@ package phelat.TextView.Sample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
-import phelat.TextView.Plus;
+import phelat.widget.PlusButton;
+import phelat.widget.PlusProgressDialog;
+import phelat.widget.PlusTextView;
 
 /**
  *
@@ -18,8 +21,20 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        Plus myTextView = (Plus) findViewById(R.id.myTextView);
+        PlusTextView myTextView = (PlusTextView) findViewById(R.id.myTextView);
         myTextView.setFont("Roboto-LightItalic.ttf");
+
+        PlusButton progressButton = (PlusButton) findViewById(R.id.progressButton);
+        progressButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PlusProgressDialog plusProgressDialog = new PlusProgressDialog(MainActivity.this);
+                plusProgressDialog.setProgressMessage("Please Wait...");
+                plusProgressDialog.setFont("Roboto-LightItalic.ttf");
+                plusProgressDialog.setCancelable(true);
+                plusProgressDialog.show();
+            }
+        });
 
     }
 

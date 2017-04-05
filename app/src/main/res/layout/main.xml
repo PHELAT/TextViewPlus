@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <phelat.TextView.Plus
+        <phelat.widget.PlusTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hello World!"
@@ -18,7 +18,7 @@
             android:textSize="50sp"
             app:font="Roboto-LightItalic.ttf"/>
 
-        <phelat.TextView.Plus
+        <phelat.widget.PlusTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hello World!"
@@ -27,7 +27,7 @@
             app:font="Roboto-Black.ttf"
             android:layout_marginTop="10dp" />
 
-        <phelat.TextView.Plus
+        <phelat.widget.PlusTextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Hello World!"
@@ -42,21 +42,22 @@
             android:orientation="horizontal"
             android:layout_marginTop="10dp">
 
-            <phelat.Button.Plus
+            <phelat.widget.PlusButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:font="Roboto-Black.ttf"
-                android:text="BOLD"/>
+                android:text="Progress"
+                android:id="@+id/progressButton"/>
 
-            <phelat.Button.Plus
+            <phelat.widget.PlusButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 app:font="Roboto-LightItalic.ttf"
                 android:text="Light Italic"/>
 
-            <phelat.Button.Plus
+            <phelat.widget.PlusButton
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -64,26 +65,26 @@
 
         </LinearLayout>
 
-        <phelat.EditText.Plus
+        <phelat.widget.PlusEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:font="Roboto-LightItalic.ttf"
             android:hint="Light Italic" />
 
-        <phelat.EditText.Plus
+        <phelat.widget.PlusEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:font="Roboto-Black.ttf"
             android:hint="Bold" />
 
-        <phelat.CheckBox.Plus
+        <phelat.widget.PlusCheckBox
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Coffee"
             app:font="Roboto-Black.ttf"
             android:textSize="19sp"/>
 
-        <phelat.CheckBox.Plus
+        <phelat.widget.PlusCheckBox
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Tea"

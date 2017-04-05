@@ -7,8 +7,7 @@ import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 import android.util.Log;
 
-import phelat.Utils.FontHelper;
-
+@Deprecated
 public class Plus extends AppCompatTextView {
 
     private static final String TAG = "TextViewPlus";
@@ -43,7 +42,7 @@ public class Plus extends AppCompatTextView {
 
         try {
 
-            typeface = FontHelper.get(getContext(), asset);
+            typeface = phelat.utils.Plus.get(getContext(), asset);
 
         } catch (Exception e) {
 
