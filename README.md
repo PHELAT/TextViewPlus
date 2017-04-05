@@ -1,7 +1,7 @@
 # TextViewPlus Library
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-TextViewPlus-red.svg?style=flat-square)]()
 
-Just a simple library for Android that provides setting custom font on Textview - Button - EditText from xml layout or Java class
+A font helper library for setting fonts on Android UI widgets, also you can set fonts from XML layout :)
 
 ![alt tag](https://github.com/PHELAT/TextViewPlus/blob/master/screenshot/screenshot.png)
 
